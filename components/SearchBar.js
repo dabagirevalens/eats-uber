@@ -25,7 +25,7 @@ const SearchBar = () => {
                 }}
 
                 renderLeftButton={() => (
-                    <View style={{ marginTop: 15, marginLeft: 10, backgroundColor : '#fff' }}>
+                    <View style={{ marginTop: 18, marginLeft: 10, height : 25 }}>
                         <Ionicons name='location-sharp' size={24} />
                     </View>
                 )}
@@ -35,11 +35,14 @@ const SearchBar = () => {
                         flexDirection: 'row',
                         marginRight: 8,
                         backgroundColor: '#fff',
-                        padding: 4,
+                        padding: 6,
+                        paddingTop : 4,
                         borderRadius: 30, 
-                        alignItems: 'center',
+                        height: 30,
+                        alignItems : 'center',
+                        alignSelf: 'center'
                     }}>
-                        <AntDesign name='clockcircle' size={11} style={{ marginRight: 6}} />
+                        <AntDesign name='clockcircle' size={14} style={{ marginRight: 6, marginTop : 3 }} />
                         <Text>search</Text>
                     </View>
                 )}
